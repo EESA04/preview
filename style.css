@@ -1,0 +1,571 @@
+body {
+  background-color: black;
+}
+#burger1 {
+  position:fixed;
+  position: center;
+  position: relative;
+  width: 100%;
+  top: -60px;
+  height: auto;
+  height: 1000px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#bar1 {
+  position:fixed;
+  position: center;
+  position: relative;
+  width: 100%;
+  top: -60px;
+  height: auto;
+  height: 1000px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+ul {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+}
+
+ul li {
+ float: left;
+ font-family: "Courier Newx", Courier, monospace;
+ width: 120px;
+ height: 50px;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+<!-- inactive but if we want add color in-->
+ul li a:hover {
+ background-color: none;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+}
+ul li a:hover {
+  color: #FF8C00;
+}
+#p1 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Courier Newx", Courier, monospace;
+  Color: white
+
+}
+#p1:hover {
+  color: #FF8C00;
+}
+
+#p2 {
+  font-size: 60px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:white;
+}
+
+#p3 {
+  font-size: 60px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:white;
+}
+
+#p4 {
+  font-size: 35px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:#FF8C00;
+}
+#p5 {
+  font-size: 35px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:#FF8C00;
+}
+#p6{
+  font-size: 70px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:#FF8C00;
+  position: absolute;
+  left: 865;
+  top: 125;
+}
+
+#p7{
+  font-size: 40px;
+  font-family: Garamond;
+  color:white;
+}
+
+#p8{
+  font-size: 40px;
+  font-family: Garamond;
+  color:black;
+  position: absolute;
+  left: 82;
+  top: -35;
+}
+
+#p9{
+  font-size: 70px;
+  font-family: Times;
+  color:beige;
+  position: absolute;
+  left: 604;
+  top: 0;
+}
+
+#p10{
+  position: absolute;
+  left: 605;
+  top: 140;
+  color:beige;
+  font-size: 70;
+}
+
+#p11{
+  position: absolute;
+  left: 890;
+  top: 30;
+  color:#FF8C00;
+  font-size: 70;
+  font-family: "Courier Newx", Courier, monospace;
+}
+
+#p12{
+  position: absolute;
+  left: 1018;
+  top: 3;
+  color: beige;
+  font-size: 70;
+}
+
+#nu{
+  font-size: 40px;
+  font-family: arial;
+  color:Red;
+}
+#logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 150px;
+  width: 150px;
+}
+
+#appetizerbox{
+  position: absolute;
+  left: -100;
+  top:100;
+  width: 140px;
+  height: 20px;
+  border: 1px solid #FF8C00;
+  padding: 100px;
+  margin: 300px;
+}
+
+#appetizertopbox{
+  position: absolute;
+  left: -301;
+  top: -362;
+  width: 280px;
+  height: -150px;
+  border: 1px solid #FF8C00;
+  padding: 30px;
+  margin: 300px;
+  background-color: #FF8C00;
+}
+
+#p13{
+  position: absolute;
+  left: 220;
+  top:400;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p14{
+  position: absolute;
+  left: 485;
+  top:401;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p15{
+  position: absolute;
+  left: 220;
+  top:425;
+  color: white;
+  font-size: 15;
+}
+
+#p16{
+  position: absolute;
+  left: 220;
+  top:450;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p17{
+  position: absolute;
+  left: 485;
+  top:450;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p18{
+  position: absolute;
+  left: 220;
+  top: 475;
+  color: white;
+  font-size: 15;
+}
+
+
+#p19{
+  position: absolute;
+  left: 220;
+  top: 500;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p20{
+  position: absolute;
+  left: 485;
+  top: 500;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p21{
+  position: absolute;
+  left: 220;
+  top: 525;
+  color: white;
+  font-size: 15;
+}
+
+#p22{
+  position: absolute;
+  left: 220;
+  top: 550;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p23{
+  position: absolute;
+  left: 485;
+  top: 550;
+  color: #FF8C00;
+  font-size: 20;
+}
+
+#p24{
+  position: absolute;
+  left: 220;
+  top: 575;
+  color: white;
+  font-size: 15;
+}
+
+#garlicbread{
+  position: absolute;
+  left: 200;
+  top: 628;
+  height: 270px;
+  width: 342px;
+}
+
+#maincourse{
+  font-size: 40px;
+  font-family: Garamond;
+  color:black;
+  position: absolute;
+  left: 121;
+  top: -30;
+}
+
+#maincoursebox{
+  position: absolute;
+  left: 460;
+  top:40;
+  width: 150px;
+  height: 80px;
+  border: 1px solid #FF8C00;
+  padding: 100px;
+  margin: 300px;
+}
+
+#maincoursetopbox{
+  position: absolute;
+  left: -300;
+  top:-300;
+  width: 310px;
+  height: 20px;
+  border: 1px solid #FF8C00;
+  padding: 20px;
+  margin: 300px;
+  background-color: #FF8C00;
+}
+
+#p25{
+  position: absolute;
+  left: 775;
+  top:400;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p26{
+  position: absolute;
+  left: 1060;
+  top:400;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p27{
+  position: absolute;
+  left: 776;
+  top:425;
+  color:white;
+  font-size:15;
+}
+
+#p28{
+  position: absolute;
+  left: 775;
+  top:450;
+  color:#FF8C00;
+  font-size:20;
+}
+#p29{
+  position: absolute;
+  left: 774;
+  top:475;
+  color:white;
+  font-size:15;
+}
+
+#p30{
+  position: absolute;
+  left: 1050;
+  top:450;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p31{
+  position: absolute;
+  left: 775;
+  top:500;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p32{
+  position: absolute;
+  left: 774;
+  top:525;
+  color:white;
+  font-size:15;
+}
+
+#p33{
+  position: absolute;
+  left: 1060;
+  top:500;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p34{
+  position: absolute;
+  left: 775;
+  top:550;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p35{
+  position: absolute;
+  left: 774;
+  top:575;
+  color:white;
+  font-size:15;
+}
+
+#p36{
+  position: absolute;
+  left: 1060;
+  top:550;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#cheeseburger{
+  position: absolute;
+  left: 760;
+  top: 628;
+  height: 270px;
+  width: 352px;
+}
+
+#Dessert{
+  position: absolute;
+  font-size: 40px;
+  font-family: Garamond;
+  color:black;
+  left: 115;
+  top: -23;
+  height: 270px;
+  width: 352px;
+
+}
+
+#dessertbox{
+  position: absolute;
+  left: 1020;
+  top:40;
+  width: 150px;
+  height: 80px;
+  border: 1px solid #FF8C00;
+  padding: 100px;
+  margin: 300px;
+}
+
+#desserttopbox{
+  position: absolute;
+  left: -301;
+  top: -300;
+  width: 330px;
+  height: 50px;
+  border: 1px solid #FF8C00;
+  padding: 10px;
+  margin: 300px;
+  background-color: #FF8C00;
+}
+
+#p37{
+  position: absolute;
+  left: 1340;
+  top:404;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p38{
+  position: absolute;
+  left: 1340;
+  top:430;
+  color:white;
+  font-size:15;
+}
+
+#p39{
+  position: absolute;
+  left: 1610;
+  top:405;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p40{
+  position: absolute;
+  left: 1340;
+  top:450;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p41{
+  position: absolute;
+  left: 1340;
+  top:475;
+  color: white;
+  font-size: 15;
+}
+
+#p42{
+  position: absolute;
+  left: 1610;
+  top:450;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p46{
+  position: absolute;
+  left: 1340;
+  top:500;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p44{
+  position: absolute;
+  left: 1340;
+  top:525;
+  color: white;
+  font-size: 15;
+}
+
+#p45{
+  position: absolute;
+  left: 1610;
+  top:500;
+  color:#FF8C00;
+  font-size:20;
+}
+#p49{
+  position: absolute;
+  left: 1340;
+  top:550;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#p47{
+  position: absolute;
+  left: 1340;
+  top:575;
+  color: white;
+  font-size: 15;
+}
+
+#p48{
+  position: absolute;
+  left: 1610;
+  top:550;
+  color:#FF8C00;
+  font-size:20;
+}
+
+#bananasplit{
+  position: absolute;
+  left: 1320;
+  top: 628;
+  height: 270px;
+  width: 353px;
+}

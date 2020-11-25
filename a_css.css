@@ -1,0 +1,27 @@
+#c1{
+  font-size: 60px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:white;
+}
+#c2{
+  font-size: 25px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:Orange;
+}
+#c3{
+  font-size: 60px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:White;
+}
+#c4{
+  font-size: 25px;
+  font-family: "Courier Newx", Courier, monospace;
+  color:Orange;
+}
+#mask {
+  top: 0;
+}
+
+#fam {
+  top: 0;
+}
